@@ -12,10 +12,11 @@ Scenario: Verification home page
 #    
 #
     And Set the identification "1234567890"
-    And Set date-starts with "21-01-2014"
-    And Set the leader field with "Henry Correa"
+    And Set date-starts with "21-01-2015"
+    And Set the leader field with "Henry Andres Correa Correa"
+    And Set the email address with "h.andresc1127@gmail.com"
     And Save the user
-    Then Verify the before user exist
-    And Return user row
-    And Delete before user
-    And Verify user was deleted
+    Then Verify the before user "Henry Andres Correa Correa" exist
+    And Return user row "Henry Andres Correa Correa"
+    And Delete before user "Henry Andres Correa Correa"
+    And Verify user was deleted "Henry Andres Correa Correa"
