@@ -29,14 +29,17 @@ beforeSession: function (config, capabilities, specs) {
     },
 ```
 5. Change **cucumberOpts**  into file `wdio.conf.js`
-´´´javascript
+```javascript
 require: [
     "./steps/**/given.js",
     "./steps/**/when.js",
     "./steps/**/then.js"
 ], // <string[]> (file/dir) require files before executing features 
-´´´
+```
 
 ---
-To run your tests, execute:
+# To run your tests
+```
+npm run test
 .\node_modules\.bin\wdio .\wdio.conf.js
+```
