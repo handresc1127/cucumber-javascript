@@ -9,7 +9,7 @@
   "author": "Henry Andres Correa Correa <h.andresc1127@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
+    "@babel/cli": "^7.12.10",
     "@babel/core": "^7.5.0",
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.0",
@@ -19,12 +19,13 @@
     "@wdio/selenium-standalone-service": "^5.16.10",
     "@wdio/spec-reporter": "^5.18.7",
     "@wdio/sync": "^5.18.7",
-    "chromedriver": "^80.0.1",
+    "axios": ">=0.21.1",
+    "chromedriver": "^87.0.5",
     "wdio-chromedriver-service": "^5.0.2"
   },
   "dependencies": {
-    "@wdio/cli": "^5.18.7",
-    "webdriver": "^5.11.12",
-    "webdriverio": "^5.18.7"
+    "@wdio/cli": "^5.23.0",
+    "webdriver": "^5.23.0",
+    "webdriverio": "^5.23.0"
   }
 }
