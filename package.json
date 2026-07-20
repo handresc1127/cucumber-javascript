@@ -19,8 +19,8 @@
     "@wdio/selenium-standalone-service": "^5.16.10",
     "@wdio/spec-reporter": "^5.18.7",
     "@wdio/sync": "^5.18.7",
-    "axios": ">=0.21.1",
-    "chromedriver": "^87.0.5",
+    "axios": ">=1.18.1",
+    "chromedriver": "^151.0.0",
     "wdio-chromedriver-service": "^5.0.2"
   },
   "dependencies": {
