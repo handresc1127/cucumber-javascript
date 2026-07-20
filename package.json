@@ -9,7 +9,7 @@
   "author": "Henry Andres Correa Correa <h.andresc1127@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
+    "@babel/cli": "^8.0.4",
     "@babel/core": "^7.5.0",
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.0",
